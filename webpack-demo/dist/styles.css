@@ -1,0 +1,176 @@
+@media screen and (min-width: 1500px) {
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    #container {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        top: 0;
+        position: absolute;
+    }
+
+    #skull {
+        top: 0;
+
+
+    }
+
+    #id {
+        text-align: center;
+        top: 0;
+
+
+    }
+
+  /*  #nav {
+        margin-top: 40px;
+        border: black;
+        border-style: solid;
+        border-width: 5px;
+        width: 150px;
+        margin-left: 30px;
+        position: fixed;
+    }
+
+   */
+    #nav{
+        text-align: center;
+    }
+
+    #header {
+        text-shadow: gray;
+        font-family: "Call Of Ops Duty";
+        width: 400px;
+
+    }
+
+    #desc {
+        text-align: center;
+    }
+
+    #desc2 {
+        text-align: center;
+    }
+
+    #Alpha {
+        text-align: center;
+        color: red;
+        font-family: "Call Of Ops Duty";
+    }
+
+    #Bravo {
+        text-align: center;
+        color: green;
+        font-family: "Call Of Ops Duty";
+    }
+
+    #notes {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+    }
+
+    ul a {
+        color: black;
+    }
+
+    li {
+        margin-top: 5px;
+        font-family: "Call Of Ops Duty";
+        font-size: 24px;
+    }
+
+    #gallery-items {
+
+        border-width: 1px;
+        border: #000000 solid;
+        width: 35%;
+        height: 900px;
+        margin: 0 auto;
+
+    }
+#box-items{
+    text-align: center;
+}
+.centering{
+    text-align: center;
+    margin: 0;
+}
+    ul
+    {
+        display:flex;
+        list-style:none;
+        padding: 10px;
+
+    }
+    li+li {
+        margin-left: 100px;
+
+    }
+    #contact-items {
+
+        border-width: 1px;
+        border: #000000 solid;
+        width: 35%;
+        height: 750px;
+        margin: 0 auto;
+        background-color: #000000;
+        color: white;
+        font-family: "Call Of Ops Duty";
+
+    }
+    form {
+        border: 3px solid #f1f1f1;
+        font-size: 20px;
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+
+    button {
+        background-color: #af000b;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+}
